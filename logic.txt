@@ -1,0 +1,19 @@
+so the first part of the program is static( means i need to code it once and it needs to be printed once, it doesnt depend
+on the user input)
+
+after the logo and title is displayed, it will ask the user for the number of triangles
+
+if the number of triangles is less that four, it will dynamically create that many entry widgets and then print the log,
+the log will have the answers to all triangles..
+
+if the number of triangles is greater than or equal to four, it will create that many pop up windows asking for individual
+triangle details and then printing the answer in a log and/or create a textfile and store the answer there with the name of the user
+
+how will the two dynamic functions work
+	basic logic
+	def data_retrieve:
+		n=button.get()
+		def inwindow(n):
+
+		if n<4:
+		
